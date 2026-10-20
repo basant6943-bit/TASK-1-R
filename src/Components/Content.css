@@ -1,0 +1,47 @@
+.style{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 700;
+   font-weight: bold;
+   
+}
+
+.style h1{
+    padding: 20px;
+    align-items: center;
+}
+
+.style p{
+display: flex;
+justify-content: center;
+  font-size: 18px;
+  line-height:32.4px;
+  padding: 20px;
+}
+
+.style img{
+    width: 600px;
+    padding: 80px;
+  
+}
+
+
+.style button{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+   border-bottom-style:none;
+    font-style: normal;
+     font-weight: 500;
+     font-size: 17px;
+    border-radius: 7px;
+    background-color: #fb8516;
+      color: #ffffff;
+    
+}
+
+.style button:hover{
+ background-color: #4248bd;
+       color: #ffffff;
+}
