@@ -1,5 +1,5 @@
 import Cards from "../Components/cards";
-import Content from "../Components/content";
+import Content from "../Components/Content";
 import Hero from "../Components/Hero";
 import Navbar from "../Components/Navbar";
 import Section from "../Components/Section";
@@ -12,7 +12,7 @@ export default function Home() {
       <Hero/>
      <Cards/>
      <Section/>
-      <Content/>
+     <Content/>
     </div>
   )
 }
