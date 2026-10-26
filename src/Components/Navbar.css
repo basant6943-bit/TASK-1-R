@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 146px;
+}
+
+.nav ul{
+    display: flex;
+    gap:20px;
+   list-style: none;
+}
+
+.nav a{ 
+ text-decoration: none;
+     font-style: normal;
+    font-weight: 700;
+    text-transform:uppercase;
+ color:rgb(26, 26, 26)
+}
+
+.nav a:hover{
+    text-decoration:underline;
+    color: #fb8516;;
+}
+
+.nav img{
+width:170px;
+cursor: pointer;
+}

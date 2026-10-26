@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.Cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+.Cards svg{
+   width: 200px; 
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+margin: 30px;
+   color: #e07312;
+}
+
+.Cards h2{
+    font-size:33px;
+    font-weight:bold;
+    line-height:28.8px;
+    text-align:center;
+    color: #111111;
+}
+.Cards p{
+    text-align:center;
+    font-size:28px;
+    padding: 30PX;
+   
+}
