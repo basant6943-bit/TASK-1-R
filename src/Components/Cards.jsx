@@ -1,13 +1,11 @@
-import"./Cards.css";
+import styles from './Cards.module.css';
 
 export default function Cards() {
   return (
     <div>
-        <h1>Pick your perfect web hosting plan</h1>
-
-        <div className="Cards">
-
-        <div className="Maximum">
+      <h1 className={styles.mainTitle}>Pick your perfect web hosting plan</h1>
+    <div className={styles.Cards}>
+        <div className={styles.Maximum}>
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
 	<path d="M0 0h16v16H0z" fill="none" />
 	<path fill="currentColor" d="M10.706 4.596a.501.501 0 0 1 .741.628l-.002.003l-.004.007l-.015.033l-.063.123l-.22.44c-.185.364-.436.857-.7 1.36a53 53 0 0 1-.778 1.442c-.118.209-.229.398-.324.55a2.4 2.4 0 0 1-.28.38A1.5 1.5 0 0 1 6.939 7.44c.127-.126.44-.373.793-.644c.37-.283.824-.622 1.263-.947c.44-.326.87-.639 1.187-.87l.38-.279l.107-.077l.027-.02l.008-.005zM8 1a7 7 0 0 1 3.732 12.923a.5.5 0 0 1-.534-.846a6 6 0 0 0 2.78-4.577h-1.51C12.204 8.5 12 8.266 12 8s.203-.5.469-.5h1.508a6 6 0 0 0-5.48-5.479v1.513C8.495 3.798 8.263 4 8 4c-.268 0-.504-.205-.504-.473V2.022a5.97 5.97 0 0 0-3.374 1.4L5.19 4.49c.188.188.166.497-.021.685c-.188.188-.497.21-.686.022L3.416 4.13A5.97 5.97 0 0 0 2.022 7.5h1.51c.265 0 .468.234.468.5s-.203.5-.469.5H2.022a6 6 0 0 0 2.78 4.577a.5.5 0 0 1-.534.846A7 7 0 0 1 8 1" />
@@ -22,7 +20,7 @@ export default function Cards() {
 </svg>
      </div>
   
-      <div className="Secure"> 
+      <div className={styles.Secure}> 
 
         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20">
 	<path d="M0 0h20v20H0z" fill="none" />
@@ -40,7 +38,7 @@ export default function Cards() {
 </svg>
       </div>
 
-      <div className="DDoS-Attack">
+      <div className={styles.DDoSttack}>
       <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
 	<path d="M0 0h24v24H0z" fill="none" />
 	<path fill="currentColor" d="M3 1h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1m0 8h16a1 1 0 0 1 1 1v.67l-2.5-1.11l-6.5 2.88V15H3a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1m0 8h8c.06 2.25 1 4.4 2.46 6H3a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1M8 5h1V3H8zm0 8h1v-2H8zm0 8h1v-2H8zM4 3v2h2V3zm0 8v2h2v-2zm0 8v2h2v-2zm13.5-7l4.5 2v3c0 2.78-1.92 5.37-4.5 6c-2.58-.63-4.5-3.22-4.5-6v-3zm0 1.94L15 15.06v2.66c0 1.54 1.07 2.98 2.5 3.34z" />
@@ -56,7 +54,7 @@ export default function Cards() {
 </svg>
 </div>
 
-    <div className="Bandwidth">
+    <div className={styles.Bandwidth}>
         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
 	<path d="M0 0h1024v1024H0z" fill="none" />
 	<path fill="currentColor" d="M704 446H320c-4.4 0-8 3.6-8 8v402c0 4.4 3.6 8 8 8h384c4.4 0 8-3.6 8-8V454c0-4.4-3.6-8-8-8m-328 64h272v117H376zm272 290H376V683h272z" />
@@ -73,6 +71,6 @@ export default function Cards() {
 </svg>
     </div>
      </div>
-    </div>
+      </div>
   )
 }
